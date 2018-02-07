@@ -1,0 +1,130 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+}
+
+h1,h2,h3,p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Header */
+#main-header {
+  background: #fff;
+  color: #333;
+  padding: 1.5rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  display: flex;
+  align-content: center;
+}
+
+#main-header img {
+  height: 3.2rem;
+  width: 3.2rem;
+  margin-right: 1.5rem;
+}
+/* Tag-line */
+.tag-line {
+  background-image: 
+    linear-gradient(to bottom right, rgba(38, 77, 115,1), rgba(0,0,0,0.6)),
+    url("https://lh3.googleusercontent.com/fwTUqH6SHL0lXU4K7ovNb3KdeSoJeQ69AeMAHVKqZ43U89cdGXXrgQoJfZ89W2D3hsGbuggOQe6FgaZUoQ=s978");
+  height: 45rem;
+  background-size: cover;
+  background-position: top;
+  color: #ccc;
+  font-size: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag-line h1 {
+  font-weight: 100;
+}
+
+.content-section {
+  padding: 4rem 1.4rem;
+}
+
+.section-title {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-bottom: 5rem;
+}
+
+.why {
+  background: #262626;
+  color: #fff;
+}
+
+.content-text {
+  font-size: 1.4rem;
+  color: #ccc;
+}
+
+.what {
+  background-image: linear-gradient(to bottom right, rgba(255,255,255,0.3), rgba(51,51,51,0.8)), url("images/pexels-photo-574071.jpeg");
+  background-size: cover;
+  background-position: top;
+}
+
+.what .section-title {
+  color: #fff;
+}
+
+.what .content-text {
+  color: #fff;
+}
+
+.who {
+  background: #fff;
+}
+
+.who .content-text {
+  color: #262626;
+}
+
+.values {
+  background: #262626;
+}
+
+.values .section-title {
+  color: #fff;
+}
+
+.values ul {
+  list-style: none;
+  padding: 0;
+}
+
+.values li {
+  margin-bottom: 4rem;
+}
+
+.values h3 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+.values .content-text {
+  color: #666666;
+}
+
+.social-media li {
+  display: inline-block;
+}
+.social-media img {
+  height: 3.2rem;
+  width: 3.2rem;
+}
