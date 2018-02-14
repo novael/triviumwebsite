@@ -29,11 +29,11 @@ h1,h2,h3,p {
   top: 0;
   right: 0;
   left: 0;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 #main-header.scroll-header {
-  transition: all 1s;
+  /* transition: all 1s; */
   background: #fff;
   color: #264d73;
 }
@@ -77,7 +77,7 @@ h1,h2,h3,p {
 
 #secondary-header.toggle {
   transform: translateY(0px);
-  opacity: 0.6;
+  opacity: 1;
 }
 
 #secondary-header .nav-links {
