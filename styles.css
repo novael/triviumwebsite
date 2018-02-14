@@ -6,7 +6,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
 }
 
@@ -17,18 +17,40 @@ h1,h2,h3,p {
 
 /* Main Header */
 #main-header {
-  background: #fff;
-  color: #333;
+  /* background: #fff; */
+  background: transparent;
+  color: #fff;
   padding: 1.5rem;
   text-transform: uppercase;
-  font-size: 1.6rem;
+  font-size: 2.2rem;
   display: flex;
   align-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  transition: all 1s;
+}
+
+#main-header.scroll-header {
+  transition: all 1s;
+  background: #fff;
+  color: #264d73;
+}
+
+#main-header.scroll-header a {
+  color: #264d73;
+  border: 2px solid transparent;
+  transition: border 0.3s;
+}
+
+#main-header.scroll-header a:hover {
+  border: 2px solid #264d73;
 }
 
 #main-header img {
-  height: 3.2rem;
-  width: 3.2rem;
+  height: 4.8rem;
+  width: 4.8rem;
   margin-right: 1.5rem;
 }
 
@@ -41,9 +63,9 @@ h1,h2,h3,p {
 #main-header .nav-links {
   display: none;
 }
-
 #secondary-header {
-  position: absolute;
+  position: fixed;
+  top: 77px;
   left: 0;
   right: 0;
   padding: 1.5rem;
@@ -73,7 +95,7 @@ h1,h2,h3,p {
   font-size: 1.4rem;
   text-transform: uppercase;
   text-decoration: none;
-  color: #E0228C;
+  color: #f7f5f5;
 }
 
 /* Tag-line */
@@ -81,7 +103,7 @@ h1,h2,h3,p {
   background-image: 
     linear-gradient(to bottom right, rgba(38, 77, 115,1), rgba(0,0,0,0.6)),
     url("https://lh3.googleusercontent.com/fwTUqH6SHL0lXU4K7ovNb3KdeSoJeQ69AeMAHVKqZ43U89cdGXXrgQoJfZ89W2D3hsGbuggOQe6FgaZUoQ=s978");
-  height: 45rem;
+  height: 60rem;
   background-size: cover;
   background-position: top;
   color: #ccc;
@@ -235,7 +257,7 @@ h1,h2,h3,p {
     align-content: center;
     margin: 0;
     margin-left: auto;
-    width: 25rem;
+    width: 30rem;
   }
 
   #secondary-header {
@@ -244,8 +266,15 @@ h1,h2,h3,p {
 
   .nav-links a {
     text-decoration: none;
-    color: #E0228C;
+    color: #fff;
     font-size: 1.4rem;
+    padding: 1rem;
+    border: 2px solid transparent;
+    transition: border 0.3s;
+  }
+
+  .nav-links a:hover {
+    border: 2px solid white;
   }
 
   .grid {
