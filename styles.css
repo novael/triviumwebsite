@@ -30,6 +30,7 @@ h1,h2,h3,p {
   right: 0;
   left: 0;
   transition: all 0.5s;
+  z-index: 1;
 }
 
 #main-header.scroll-header {
@@ -130,8 +131,12 @@ h1,h2,h3,p {
 }
 
 .why {
-  background: #262626;
-  color: #fff;
+  /* background: #262626; */
+  background: #fff;
+}
+
+.why .content-text {
+  color: #262626;
 }
 
 .content-text {
