@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var header = doc.getElementById("main-header");
     var secondaryHeader = doc.getElementById("secondary-header");
 
-    if(scrollTop >= 100) {
+    if(scrollTop >= 185) {
       if(!header.classList.contains("scroll-header")) {
         header.classList.add('scroll-header');
       }
